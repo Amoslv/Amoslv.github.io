@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>这球一定进的blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-07-01T01:52:06.165Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>这球一定进</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo+github搭建个人博客</title>
+    <link href="http://yoursite.com/2018/06/30/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2018/06/30/hexo-github搭建个人博客/</id>
+    <published>2018-06-30T13:37:29.000Z</published>
+    <updated>2018-07-01T01:52:06.165Z</updated>
+    
+    <content type="html"><![CDATA[<p>##一直想搭建博客, 无奈自己执行力不够, 加上整个人比较懒</p><p>  懒懒懒</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;##一直想搭建博客, 无奈自己执行力不够, 加上整个人比较懒&lt;/p&gt;
+&lt;p&gt;  懒懒懒&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/06/29/README/"/>
+    <id>http://yoursite.com/2018/06/29/README/</id>
+    <published>2018-06-29T13:48:23.454Z</published>
+    <updated>2018-06-29T15:43:34.450Z</updated>
+    
+    <content type="html"><![CDATA[<p>_config.yml<br>网站的配置信息, 在此配置大部分的参数<br>package.json<br>应用程序的信息<br>scaffolds<br>模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件<br>source<br>资源文件夹是存在放用户资源的地方。除<em>posts文件夹之外, 开头命名为</em>(下划线)的文件/文件夹和隐藏的文件会被忽略。 Markdown和HTML文件会被解析并放到public文件夹, 而其他文件会被拷贝过去<br>themes<br>主题文件夹。Hexo会根据主题来生成静态页面</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;_config.yml&lt;br&gt;网站的配置信息, 在此配置大部分的参数&lt;br&gt;package.json&lt;br&gt;应用程序的信息&lt;br&gt;scaffolds&lt;br&gt;模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件&lt;br&gt;source&lt;br&gt;资源文件夹是存在放
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/06/29/hello-world/"/>
+    <id>http://yoursite.com/2018/06/29/hello-world/</id>
+    <published>2018-06-29T13:42:07.700Z</published>
+    <updated>2018-06-29T13:42:07.700Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
