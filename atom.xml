@@ -40,27 +40,6 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/06/29/README/"/>
-    <id>http://yoursite.com/2018/06/29/README/</id>
-    <published>2018-06-29T13:48:23.454Z</published>
-    <updated>2018-06-29T15:43:34.450Z</updated>
-    
-    <content type="html"><![CDATA[<p>_config.yml<br>网站的配置信息, 在此配置大部分的参数<br>package.json<br>应用程序的信息<br>scaffolds<br>模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件<br>source<br>资源文件夹是存在放用户资源的地方。除<em>posts文件夹之外, 开头命名为</em>(下划线)的文件/文件夹和隐藏的文件会被忽略。 Markdown和HTML文件会被解析并放到public文件夹, 而其他文件会被拷贝过去<br>themes<br>主题文件夹。Hexo会根据主题来生成静态页面</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;_config.yml&lt;br&gt;网站的配置信息, 在此配置大部分的参数&lt;br&gt;package.json&lt;br&gt;应用程序的信息&lt;br&gt;scaffolds&lt;br&gt;模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件&lt;br&gt;source&lt;br&gt;资源文件夹是存在放
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2018/06/29/hello-world/"/>
     <id>http://yoursite.com/2018/06/29/hello-world/</id>
@@ -74,6 +53,27 @@
       
       
         &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo基本配置信息</title>
+    <link href="http://yoursite.com/2018/06/29/README/"/>
+    <id>http://yoursite.com/2018/06/29/README/</id>
+    <published>2018-06-29T13:37:29.000Z</published>
+    <updated>2018-07-02T22:58:48.147Z</updated>
+    
+    <content type="html"><![CDATA[<p>_config.yml<br>网站的配置信息, 在此配置大部分的参数<br>package.json<br>应用程序的信息<br>scaffolds<br>模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件<br>source<br>资源文件夹是存在放用户资源的地方。除<em>posts文件夹之外, 开头命名为</em>(下划线)的文件/文件夹和隐藏的文件会被忽略。 Markdown和HTML文件会被解析并放到public文件夹, 而其他文件会被拷贝过去<br>themes<br>主题文件夹。Hexo会根据主题来生成静态页面</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;_config.yml&lt;br&gt;网站的配置信息, 在此配置大部分的参数&lt;br&gt;package.json&lt;br&gt;应用程序的信息&lt;br&gt;scaffolds&lt;br&gt;模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件&lt;br&gt;source&lt;br&gt;资源文件夹是存在放
       
     
     </summary>
