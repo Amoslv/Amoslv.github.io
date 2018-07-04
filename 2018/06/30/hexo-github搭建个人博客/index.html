@@ -101,17 +101,18 @@
     }
   };
 </script>
-  <meta name="description" content="##一直想搭建博客, 无奈自己执行力不够, 加上整个人比较懒   懒懒懒">
+  <meta name="description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题  一. 安装gitmac系统时自带git的, 可直接使用以下命令进行查看git版本 1$ git --version windows系统, 直接访问msysGit 安装完成之后, 需要进行如下配置,">
+<meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo+github搭建个人博客">
 <meta property="og:url" content="http://yoursite.com/2018/06/30/hexo-github搭建个人博客/index.html">
 <meta property="og:site_name" content="这球一定进的blog">
-<meta property="og:description" content="##一直想搭建博客, 无奈自己执行力不够, 加上整个人比较懒   懒懒懒">
+<meta property="og:description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题  一. 安装gitmac系统时自带git的, 可直接使用以下命令进行查看git版本 1$ git --version windows系统, 直接访问msysGit 安装完成之后, 需要进行如下配置,">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-01T01:52:06.165Z">
+<meta property="og:updated_time" content="2018-07-04T15:25:48.718Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo+github搭建个人博客">
-<meta name="twitter:description" content="##一直想搭建博客, 无奈自己执行力不够, 加上整个人比较懒   懒懒懒">
+<meta name="twitter:description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题  一. 安装gitmac系统时自带git的, 可直接使用以下命令进行查看git版本 1$ git --version windows系统, 直接访问msysGit 安装完成之后, 需要进行如下配置,">
 
 
 
@@ -341,7 +342,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-07-01 09:52:06" itemprop="dateModified" datetime="2018-07-01T09:52:06+08:00">2018-07-01</time>
+                <time title="Modified: 2018-07-04 23:25:48" itemprop="dateModified" datetime="2018-07-04T23:25:48+08:00">2018-07-04</time>
               
             
           </span>
@@ -374,8 +375,55 @@
       
 
       
-        <p>##一直想搭建博客, 无奈自己执行力不够, 加上整个人比较懒</p>
-<p>  懒懒懒</p>
+        <p>一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。</p>
+<h3 id="总共分为五个部分。"><a href="#总共分为五个部分。" class="headerlink" title="总共分为五个部分。"></a>总共分为五个部分。</h3><ol>
+<li>安装git</li>
+<li>安装node.js</li>
+<li>安装hexo。</li>
+<li>上传github</li>
+<li>更换主题</li>
+</ol>
+<h2 id="一-安装git"><a href="#一-安装git" class="headerlink" title="一. 安装git"></a>一. 安装git</h2><pre><code>mac系统时自带git的, 可直接使用以下命令进行查看git版本
+</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br></pre></td></tr></table></figure>
+<p>windows系统, 直接访问<a href="http://msysgit.github.com/" target="_blank" rel="noopener">msysGit</a></p>
+<p>安装完成之后, 需要进行如下配置, 此为全局配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"your name"</span></span><br><span class="line">$ git config --global user.email <span class="string">"your email"</span></span><br></pre></td></tr></table></figure>
+<h2 id="二-安装node-js"><a href="#二-安装node-js" class="headerlink" title="二. 安装node.js"></a>二. 安装node.js</h2><p>直接去官网下载安装, <a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a></p>
+<h2 id="三-安装hexo-参考hexo官网"><a href="#三-安装hexo-参考hexo官网" class="headerlink" title="三. 安装hexo, 参考hexo官网"></a>三. 安装hexo, 参考<a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="noopener">hexo官网</a></h2><p>打开终端, 新建文件夹, 我这边新建了 myblog, 然后 cd 进入, 此处可能会慢点, 需要自己挂代理.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
+<p>执行init<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure></p>
+<p>安装依赖包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure></p>
+<p>  此时我们的环境已经搭建好了, 执行以下命令在浏览打开localhost:4000 可直接查看<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure></p>
+<h2 id="四-上传github"><a href="#四-上传github" class="headerlink" title="四. 上传github"></a>四. 上传github</h2><pre><code>刚刚所有的操作都是在本地执行的,  我们并没有能够在网络上看到。
+</code></pre><ol>
+<li>在github上新建一个仓库, 仓库的名称格式为 yourgithubname.github.io, 比如我叫amoslv, 所以我新建amoslv.github.io. 配置ssh建立连接我这里就不详细列举了。</li>
+<li>创建好仓库之后, cd进入我们刚刚hexo init的文件夹, 找到根目录下的_config.yml.<br>在最下方, deploy一栏配置下面的数据<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># You can use this:</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: &lt;repository url&gt;</span><br><span class="line">  message: [message]</span><br><span class="line">  name: [git user]</span><br><span class="line">  email: [git email]</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>安装将生成的hexo文件部署到github的插件。(注意这个很重要, 因为这个插件会重新生成上传的文件, 直接使用git push上传没有作用)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="五-更改hexo的主题"><a href="#五-更改hexo的主题" class="headerlink" title="五. 更改hexo的主题"></a>五. 更改hexo的主题</h2><p>更改本地查看的时候会发现默认的主题很丑, 我这边建议是使用next 主题。<br>参考 next主题 <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a></p>
+<p>依次执行:<br>进入自己本地blog根目录, 比如我的/Users/amoslv/Desktop/myblog/blog<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /Users/amoslv/Desktop/myblog/blog</span><br></pre></td></tr></table></figure></p>
+<p>将next主题clone下来<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
+<p>后续如果next主题需要更新的话, 可直接<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure></p>
+<p>启用该主题, 在根目录下的_config.yml</p>
+<pre><code>theme: next (注意冒号后面有空格!!!)
+</code></pre><h2 id="六-新建文章并上传到github"><a href="#六-新建文章并上传到github" class="headerlink" title="六. 新建文章并上传到github"></a>六. 新建文章并上传到github</h2><p>现在我们已经将准备工作都做得差不多了, 现在来完整的发一篇文章试试</p>
+<ol>
+<li><p>新建文庄</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>生成文章前先clean一下, 基本每次部署前都需要这样操作一次</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>生成文章</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>本地运行查看</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>5.部署到github<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></p>
+<p>当然以上都可以简写为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
+<p>好了, 一篇完整的教程就下来了, 尽情的折腾吧。</p>
       
     </div>
 
@@ -392,6 +440,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+        </div>
       
 
       
@@ -459,8 +513,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -483,6 +546,19 @@
 
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">tags</span>
+                  
+                </div>
               
             </nav>
           
@@ -512,6 +588,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#总共分为五个部分。"><span class="nav-number">1.</span> <span class="nav-text">总共分为五个部分。</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#一-安装git"><span class="nav-number"></span> <span class="nav-text">一. 安装git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二-安装node-js"><span class="nav-number"></span> <span class="nav-text">二. 安装node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三-安装hexo-参考hexo官网"><span class="nav-number"></span> <span class="nav-text">三. 安装hexo, 参考hexo官网</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四-上传github"><span class="nav-number"></span> <span class="nav-text">四. 上传github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五-更改hexo的主题"><span class="nav-number"></span> <span class="nav-text">五. 更改hexo的主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六-新建文章并上传到github"><span class="nav-number"></span> <span class="nav-text">六. 新建文章并上传到github</span></a></li></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
