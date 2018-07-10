@@ -101,18 +101,18 @@
     }
   };
 </script>
-  <meta name="description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题  一. 安装gitmac系统时自带git的, 可直接使用以下命令进行查看git版本 1$ git --version windows系统, 直接访问msysGit 安装完成之后, 需要进行如下配置,">
+  <meta name="description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题">
 <meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo+github搭建个人博客">
 <meta property="og:url" content="http://yoursite.com/2018/06/30/hexo-github搭建个人博客/index.html">
 <meta property="og:site_name" content="这球一定进的blog">
-<meta property="og:description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题  一. 安装gitmac系统时自带git的, 可直接使用以下命令进行查看git版本 1$ git --version windows系统, 直接访问msysGit 安装完成之后, 需要进行如下配置,">
+<meta property="og:description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-07-04T15:25:48.718Z">
+<meta property="og:updated_time" content="2018-07-08T23:15:50.257Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo+github搭建个人博客">
-<meta name="twitter:description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题  一. 安装gitmac系统时自带git的, 可直接使用以下命令进行查看git版本 1$ git --version windows系统, 直接访问msysGit 安装完成之后, 需要进行如下配置,">
+<meta name="twitter:description" content="一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。 总共分为五个部分。 安装git 安装node.js 安装hexo。 上传github 更换主题">
 
 
 
@@ -229,15 +229,23 @@
           
           <li class="menu-item menu-item-home">
     <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+      <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>首页</a>
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags">
-    <a href="/tags/hexo" rel="section">
+    <a href="/tags" rel="section">
       <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>分类</a>
   </li>
         
         
@@ -290,7 +298,7 @@
 
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-tags" itemscope itemtype="http://schema.org/Article">
   
   
   
@@ -354,11 +362,29 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-07-04 23:25:48" itemprop="dateModified" datetime="2018-07-04T23:25:48+08:00">2018-07-04</time>
+                <time title="修改时间：2018-07-09 07:15:50" itemprop="dateModified" datetime="2018-07-09T07:15:50+08:00">2018-07-09</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -414,6 +440,7 @@
 <li>上传github</li>
 <li>更换主题</li>
 </ol>
+<a id="more"></a>
 <h2 id="一-安装git"><a href="#一-安装git" class="headerlink" title="一. 安装git"></a>一. 安装git</h2><pre><code>mac系统时自带git的, 可直接使用以下命令进行查看git版本
 </code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br></pre></td></tr></table></figure>
 <p>windows系统, 直接访问<a href="http://msysgit.github.com/" target="_blank" rel="noopener">msysGit</a></p>
@@ -467,6 +494,35 @@
     
 
     
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/Wechat.jpeg" alt="这球一定进 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.png" alt="这球一定进 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
 
@@ -496,6 +552,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/07/07/两个git账号在同一台电脑上共存/" rel="prev" title="两个git账号在同一台电脑上共存">
+                两个git账号在同一台电脑上共存 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -569,12 +629,27 @@
                 
                   <a href="/archive">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
               
 
               
@@ -586,7 +661,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">标签</span>
                   
                 </div>
@@ -649,7 +726,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/07/07/%E4%B8%A4%E4%B8%AAgit%E8%B4%A6%E5%8F%B7%E5%9C%A8%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%85%B1%E5%AD%98/</loc>
+    <lastmod>2018-07-08T23:16:31.241Z</lastmod>
+    <data>
+        <display>
+        <title>两个git账号在同一台电脑上共存</title>
+        <pubTime>2018-07-07T13:26:26.000Z</pubTime>
+        
+        <tag>git使用</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://yoursite.com/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/06/29/README/</loc>
-    <lastmod>2018-07-04T15:34:09.282Z</lastmod>
+    <lastmod>2018-07-08T23:16:05.531Z</lastmod>
     <data>
         <display>
         <title>hexo基本配置信息</title>
@@ -13,6 +33,9 @@
         
          
            
+             
+              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
+          
         </display>
     </data>
     </url>
@@ -20,7 +43,7 @@
     
   <url>
     <loc>http://yoursite.com/2018/06/30/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2018-07-04T15:25:48.718Z</lastmod>
+    <lastmod>2018-07-08T23:15:50.257Z</lastmod>
     <data>
         <display>
         <title>hexo+github搭建个人博客</title>
@@ -30,6 +53,9 @@
          
          
            
+             
+              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
+          
         </display>
     </data>
     </url>

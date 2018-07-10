@@ -227,15 +227,23 @@
           
           <li class="menu-item menu-item-home menu-item-active">
     <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+      <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>首页</a>
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags">
-    <a href="/tags/hexo" rel="section">
+    <a href="/tags" rel="section">
       <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>分类</a>
   </li>
         
         
@@ -288,7 +296,187 @@
 
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/07/两个git账号在同一台电脑上共存/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="这球一定进">
+      <meta itemprop="description" content="这球一定进(技术blog)">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="这球一定进的blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/07/两个git账号在同一台电脑上共存/" itemprop="url">
+                  两个git账号在同一台电脑上共存
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-07 21:26:26" itemprop="dateCreated datePublished" datetime="2018-07-07T21:26:26+08:00">2018-07-07</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-07-09 07:16:31" itemprop="dateModified" datetime="2018-07-09T07:16:31+08:00">2018-07-09</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      <div>    
+ 
+ 
+</div>
+
+      
+        
+          <p>一直都使用过git, 但每次都是自己小打小闹, 一个人开发工作, 所以在公司也是自己的git账号, 五月底的时候在老东家连续四个月发不出来工资的时候, 换了份新工作, 恰巧碰到项目在往git上迁移, 而且最担心的事还是发生了, 公司给配置了新的git账号, 不过这可难不倒我这个喜欢折腾的人, 哦, 对了, 新东家还是自己 带电脑, 所以这一个多月以来, 我从一个git小白, 变成了一个可以熟练使用几个常用git命令的高级小白。收获还是颇丰的。。</p>
+<p>由于现在正常开发使用mac, 所以本教程主要针对mac用户, 当然windows用户也可以参考, 虽然目录不一样, 但是主要的思路过程基本是一样的。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/07/两个git账号在同一台电脑上共存/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-tags" itemscope itemtype="http://schema.org/Article">
   
   
   
@@ -356,11 +544,29 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-07-04 23:25:48" itemprop="dateModified" datetime="2018-07-04T23:25:48+08:00">2018-07-04</time>
+                <time title="修改时间：2018-07-09 07:15:50" itemprop="dateModified" datetime="2018-07-09T07:15:50+08:00">2018-07-09</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -395,8 +601,7 @@
 
       
         
-          
-            <p>一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。</p>
+          <p>一直想出一份教程, 但是总要自己研究透彻了来给大家分享。现在勉强算是能稍微理解了所以来给大家讲解一下。</p>
 <h3 id="总共分为五个部分。"><a href="#总共分为五个部分。" class="headerlink" title="总共分为五个部分。"></a>总共分为五个部分。</h3><ol>
 <li>安装git</li>
 <li>安装node.js</li>
@@ -404,48 +609,13 @@
 <li>上传github</li>
 <li>更换主题</li>
 </ol>
-<h2 id="一-安装git"><a href="#一-安装git" class="headerlink" title="一. 安装git"></a>一. 安装git</h2><pre><code>mac系统时自带git的, 可直接使用以下命令进行查看git版本
-</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br></pre></td></tr></table></figure>
-<p>windows系统, 直接访问<a href="http://msysgit.github.com/" target="_blank" rel="noopener">msysGit</a></p>
-<p>安装完成之后, 需要进行如下配置, 此为全局配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"your name"</span></span><br><span class="line">$ git config --global user.email <span class="string">"your email"</span></span><br></pre></td></tr></table></figure>
-<h2 id="二-安装node-js"><a href="#二-安装node-js" class="headerlink" title="二. 安装node.js"></a>二. 安装node.js</h2><p>直接去官网下载安装, <a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a></p>
-<h2 id="三-安装hexo-参考hexo官网"><a href="#三-安装hexo-参考hexo官网" class="headerlink" title="三. 安装hexo, 参考hexo官网"></a>三. 安装hexo, 参考<a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="noopener">hexo官网</a></h2><p>打开终端, 新建文件夹, 我这边新建了 myblog, 然后 cd 进入, 此处可能会慢点, 需要自己挂代理.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
-<p>执行init<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure></p>
-<p>安装依赖包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure></p>
-<p>  此时我们的环境已经搭建好了, 执行以下命令在浏览打开localhost:4000 可直接查看<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure></p>
-<h2 id="四-上传github"><a href="#四-上传github" class="headerlink" title="四. 上传github"></a>四. 上传github</h2><pre><code>刚刚所有的操作都是在本地执行的,  我们并没有能够在网络上看到。
-</code></pre><ol>
-<li>在github上新建一个仓库, 仓库的名称格式为 yourgithubname.github.io, 比如我叫amoslv, 所以我新建amoslv.github.io. 配置ssh建立连接我这里就不详细列举了。</li>
-<li>创建好仓库之后, cd进入我们刚刚hexo init的文件夹, 找到根目录下的_config.yml.<br>在最下方, deploy一栏配置下面的数据<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># You can use this:</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: &lt;repository url&gt;</span><br><span class="line">  message: [message]</span><br><span class="line">  name: [git user]</span><br><span class="line">  email: [git email]</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>安装将生成的hexo文件部署到github的插件。(注意这个很重要, 因为这个插件会重新生成上传的文件, 直接使用git push上传没有作用)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<h2 id="五-更改hexo的主题"><a href="#五-更改hexo的主题" class="headerlink" title="五. 更改hexo的主题"></a>五. 更改hexo的主题</h2><p>更改本地查看的时候会发现默认的主题很丑, 我这边建议是使用next 主题。<br>参考 next主题 <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a></p>
-<p>依次执行:<br>进入自己本地blog根目录, 比如我的/Users/amoslv/Desktop/myblog/blog<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /Users/amoslv/Desktop/myblog/blog</span><br></pre></td></tr></table></figure></p>
-<p>将next主题clone下来<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
-<p>后续如果next主题需要更新的话, 可直接<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure></p>
-<p>启用该主题, 在根目录下的_config.yml</p>
-<pre><code>theme: next (注意冒号后面有空格!!!)
-</code></pre><h2 id="六-新建文章并上传到github"><a href="#六-新建文章并上传到github" class="headerlink" title="六. 新建文章并上传到github"></a>六. 新建文章并上传到github</h2><p>现在我们已经将准备工作都做得差不多了, 现在来完整的发一篇文章试试</p>
-<ol>
-<li><p>新建文庄</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>生成文章前先clean一下, 基本每次部署前都需要这样操作一次</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>生成文章</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>本地运行查看</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>5.部署到github<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></p>
-<p>当然以上都可以简写为<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
-<p>好了, 一篇完整的教程就下来了, 尽情的折腾吧。</p>
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/30/hexo-github搭建个人博客/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -492,7 +662,7 @@
 
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
   
   
   
@@ -560,11 +730,29 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-07-04 23:34:09" itemprop="dateModified" datetime="2018-07-04T23:34:09+08:00">2018-07-04</time>
+                <time title="修改时间：2018-07-09 07:16:05" itemprop="dateModified" datetime="2018-07-09T07:16:05+08:00">2018-07-09</time>
               
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -599,12 +787,14 @@
 
       
         
-          
-            <p>_config.yml<br>网站的配置信息, 在此配置大部分的参数<br>package.json<br>应用程序的信息<br>scaffolds<br>模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件<br>source<br>资源文件夹是存在放用户资源的地方。除<em>posts文件夹之外, 开头命名为</em>(下划线)的文件/文件夹和隐藏的文件会被忽略。 Markdown和HTML文件会被解析并放到public文件夹, 而其他文件会被拷贝过去<br>themes<br>主题文件夹。Hexo会根据主题来生成静态页面</p>
-<p>目录文件夹介绍<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">├── .deploy       <span class="comment">#需要部署的文件</span></span><br><span class="line">├── node_modules  <span class="comment">#Hexo插件</span></span><br><span class="line">├── public        <span class="comment">#生成的静态网页文件</span></span><br><span class="line">├── scaffolds     <span class="comment">#模板</span></span><br><span class="line">├── <span class="built_in">source</span>        <span class="comment">#博客正文和其他源文件，404、favicon、CNAME 都应该放在这里</span></span><br><span class="line">|   ├── _drafts   <span class="comment">#草稿</span></span><br><span class="line">|   └── _posts    <span class="comment">#文章</span></span><br><span class="line">├── themes        <span class="comment">#主题</span></span><br><span class="line">├── _config.yml   <span class="comment">#全局配置文件</span></span><br><span class="line">└── package.json</span><br></pre></td></tr></table></figure></p>
-<p>全局_config.yml</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">title:  <span class="comment">#标题</span></span><br><span class="line">subtitle:  <span class="comment">#副标题</span></span><br><span class="line">description:  <span class="comment">#站点描述，给搜索引擎看的</span></span><br><span class="line">author:  <span class="comment">#作者</span></span><br><span class="line">email:  <span class="comment">#电子邮箱</span></span><br><span class="line">language: zh-CN <span class="comment">#语言</span></span><br><span class="line"><span class="comment"># URL #链接格式</span></span><br><span class="line">url:  <span class="comment">#网址</span></span><br><span class="line">root: / <span class="comment">#根目录</span></span><br><span class="line">permalink: :year/:month/:day/:title/ <span class="comment">#文章的链接格式</span></span><br><span class="line">tag_dir: tags <span class="comment">#标签目录</span></span><br><span class="line">archive_dir: archives <span class="comment">#存档目录</span></span><br><span class="line">category_dir: categories <span class="comment">#分类目录</span></span><br><span class="line">code_dir: downloads/code</span><br><span class="line">permalink_defaults:</span><br><span class="line"><span class="comment"># Directory #目录</span></span><br><span class="line">source_dir: <span class="built_in">source</span> <span class="comment">#源文件目录</span></span><br><span class="line">public_dir: public <span class="comment">#生成的网页文件目录</span></span><br><span class="line"><span class="comment"># Writing #写作</span></span><br><span class="line">new_post_name: :title.md <span class="comment">#新文章标题</span></span><br><span class="line">default_layout: post <span class="comment">#默认的模板，包括 post、page、photo、draft（文章、页面、照片、草稿）</span></span><br><span class="line">titlecase: <span class="literal">false</span> <span class="comment">#标题转换成大写</span></span><br><span class="line">external_link: <span class="literal">true</span> <span class="comment">#在新选项卡中打开连接</span></span><br><span class="line">filename_case: 0</span><br><span class="line">render_drafts: <span class="literal">false</span></span><br><span class="line">post_asset_folder: <span class="literal">false</span></span><br><span class="line">relative_link: <span class="literal">false</span></span><br><span class="line">highlight: <span class="comment">#语法高亮</span></span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span> <span class="comment">#是否启用</span></span><br><span class="line">  line_number: <span class="literal">true</span> <span class="comment">#显示行号</span></span><br><span class="line">  tab_replace:</span><br><span class="line"><span class="comment"># Category &amp; Tag #分类和标签</span></span><br><span class="line">default_category: uncategorized <span class="comment">#默认分类</span></span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"><span class="comment"># Archives</span></span><br><span class="line">2: 开启分页</span><br><span class="line">1: 禁用分页</span><br><span class="line">0: 全部禁用</span><br><span class="line">archive: 2</span><br><span class="line">category: 2</span><br><span class="line">tag: 2</span><br><span class="line"><span class="comment"># Server #本地服务器</span></span><br><span class="line">port: 4000 <span class="comment">#端口号</span></span><br><span class="line">server_ip: localhost <span class="comment">#IP 地址</span></span><br><span class="line">logger: <span class="literal">false</span></span><br><span class="line">logger_format: dev</span><br><span class="line"><span class="comment"># Date / Time format #日期时间格式</span></span><br><span class="line">date_format: YYYY-MM-DD <span class="comment">#参考http://momentjs.com/docs/#/displaying/format/</span></span><br><span class="line">time_format: H:mm:ss</span><br><span class="line"><span class="comment"># Pagination #分页</span></span><br><span class="line">per_page: 10 <span class="comment">#每页文章数，设置成 0 禁用分页</span></span><br><span class="line">pagination_dir: page</span><br><span class="line"><span class="comment"># Disqus #Disqus评论，替换为多说</span></span><br><span class="line">disqus_shortname:</span><br><span class="line"><span class="comment"># Extensions #拓展插件</span></span><br><span class="line">theme: landscape-plus <span class="comment">#主题</span></span><br><span class="line">exclude_generator:</span><br><span class="line">plugins: <span class="comment">#插件，例如生成 RSS 和站点地图的</span></span><br><span class="line">- hexo-generator-feed</span><br><span class="line">- hexo-generator-sitemap</span><br><span class="line"></span><br><span class="line"><span class="comment"># Deployment #部署，将 lmintlcx 改成用户名</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: github仓库地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-          
+          <p>_config.yml<br>网站的配置信息, 在此配置大部分的参数<br>package.json<br>应用程序的信息<br>scaffolds<br>模版文件夹, 当新建文章时, Hexo会根据scaffolds来建立文件<br>source<br>资源文件夹是存在放用户资源的地方。除<em>posts文件夹之外, 开头命名为</em>(下划线)的文件/文件夹和隐藏的文件会被忽略。 Markdown和HTML文件会被解析并放到public文件夹, 而其他文件会被拷贝过去<br>themes<br>主题文件夹。Hexo会根据主题来生成静态页面</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/06/29/README/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -684,12 +874,27 @@
                 
                   <a href="/archive">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
               
 
               
@@ -701,7 +906,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">标签</span>
                   
                 </div>
@@ -748,7 +955,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
